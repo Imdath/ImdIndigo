@@ -1,0 +1,104 @@
+.header-container {
+  height: 8vh;
+  background-color: #23008b;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 960px) {
+  .header-container {
+    justify-content: space-between;
+  }
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 10%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .icon-container {
+    min-width: 15%;
+    margin-left: 25px;
+  }
+}
+
+.ham-icon {
+  color: white;
+  font-size: 20px;
+}
+
+.title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.details-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 60%;
+}
+
+@media screen and (max-width: 960px) {
+  .details-container {
+    display: none;
+  }
+}
+
+.detail-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 960px) {
+  .button-container {
+    display: none;
+  }
+}
+
+.login-button {
+  height: 35px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #23008b;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.login-icon {
+  font-size: 18px;
+}
+
+.cart-container {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .cart-container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.cart-icon {
+  font-size: 30px;
+  margin-right: 25px;
+  color: #ffffff;
+}

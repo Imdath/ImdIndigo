@@ -1,0 +1,113 @@
+.wcu-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wcu-heading {
+  font-size: 40px;
+  font-family: 'Roboto';
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .wcu-heading {
+    font-size: 25px;
+  }
+}
+
+.wcu-heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hr-line {
+  background-color: #23008b;
+  height: 7px;
+  width: 8%;
+  border: 0;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .hr-line {
+    width: 15%;
+  }
+}
+
+.wcu-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.expert-card {
+  height: 420px;
+  width: 350px;
+  border-radius: 15px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: whitesmoke;
+  box-shadow: 0 1px 1px 0 #23008b;
+  cursor: pointer;
+}
+
+.expert-icon {
+  margin-top: 30px;
+  font-size: 80px;
+  color: #23008b;
+}
+
+.expert-heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #23008b;
+  font-weight: 500;
+}
+
+.other-cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.other-card {
+  cursor: pointer;
+  height: 140px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border-top: 3px solid #23008b;
+  box-shadow: 0 1px 1px 0 #bab8c0;
+  margin: 10px;
+}
+
+.other-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 120px;
+}
+
+.other-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.other-icon {
+  font-size: 25px;
+}
+
+.other-description {
+  font-weight: 600;
+  margin-left: 8px;
+}

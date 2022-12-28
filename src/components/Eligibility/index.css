@@ -1,0 +1,54 @@
+.eligible-description-container {
+  min-height: 42vh;
+  background-color: #e6e6fa;
+}
+
+.eligibility-heading {
+  color: #23008b;
+  margin-left: 80px;
+  padding: 20px;
+  padding-top: 40px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 700px) {
+  .eligibility-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+.eligible-description {
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .eligible-description {
+    padding-left: 20px;
+  }
+}
+
+.eligible-para {
+  padding-left: 10px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+@media screen and (max-width: 700px) {
+  .eligible-para {
+    font-size: 12px;
+  }
+}
+
+.tick-icon {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 700px) {
+  .tick-icon {
+    font-size: 15px;
+  }
+}
